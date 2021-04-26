@@ -1,0 +1,26 @@
+main {
+  margin: 50px 0;
+}
+.google {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: #ccc;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 10px;
+}
+.footer-content {
+  background-color: aqua;
+  width: 100%;
+  text-align: center;
+}
